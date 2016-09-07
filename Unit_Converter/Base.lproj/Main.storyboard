@@ -8,7 +8,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Unit Converter-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Unit_Converter" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,7 +50,7 @@
                             <constraint firstItem="wu9-nQ-E3t" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="87" id="Vbc-h5-e2X"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="bWw-tW-ADL"/>
+                    <navigationItem key="navigationItem" title="Unit Converter" id="bWw-tW-ADL"/>
                     <connections>
                         <outlet property="TypeSegment" destination="hex-XX-tjB" id="JOQ-cW-bS6"/>
                     </connections>

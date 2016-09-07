@@ -69,7 +69,7 @@ class MainViewController: UIViewController {
 }
 
 func isdouble(Arrayofstrings a:String ...) -> Bool {
-    print (a)
+//    print (a)         // for error finding -_-
     var isdub = true
     for i in a {
         
@@ -79,7 +79,6 @@ func isdouble(Arrayofstrings a:String ...) -> Bool {
         }
         
     }
-    print (isdub)
     return isdub
 }
 
